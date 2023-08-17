@@ -1,7 +1,8 @@
 Source: gawk
 Section: interpreters
 Priority: optional
-Maintainer: Adrian Bunk <bunk@debian.org>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Adrian Bunk <bunk@debian.org>
 Build-Depends: autotools-dev,
                bison,
                debhelper (>= 9),

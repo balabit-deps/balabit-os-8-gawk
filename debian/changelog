@@ -1,3 +1,12 @@
+gawk (1:5.0.1+dfsg-1ubuntu0.1) focal-security; urgency=medium
+
+  * SECURITY UPDATE: integer overflow
+    - debian/patches/CVE-2023-4156.patch: prevent integer overflow
+      by adding check for negative size value in builtin.c.
+    - CVE-2023-4156
+
+ -- Fabian Toepfer <fabian.toepfer@canonical.com>  Thu, 17 Aug 2023 15:21:23 +0200
+
 gawk (1:5.0.1+dfsg-1) unstable; urgency=low
 
   * New upstream release. (Closes: #940474)
